@@ -14,4 +14,6 @@ alias pip="/usr/local/bin/pip3.6"
 EOM
 source ~/.zshrc
 
+pip install --upgrade pip
+
 echo "Python-3.6.8 Install Done!!"
