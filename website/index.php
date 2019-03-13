@@ -7,7 +7,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');
+  background-image: url('https://raw.githubusercontent.com/Boday2Dotmore/MIS/master/website/Iceland-islands-sea-dusk_1920x1200.jpg');
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -46,7 +46,7 @@ hr {
 
 <div class="bgimg">
   <div class="topleft">
-    <p>Logo</p>
+    <p><img src="https://www.titan-tech.com.tw/style/official/images/logo/logo.svg?v=1551841648" /></p>
   </div>
   <div class="middle">
     <h1>COMING SOON</h1>
@@ -54,14 +54,14 @@ hr {
     <p id="demo"><?php echo floor((strtotime('2019-04-10')-time())/86400); ?> days left</p>
   </div>
   <div class="bottomleft">
-    <p>irisplaza.com.tw</p>
+    <p>http://www.2019.th-sports.com.cn/</p>
   </div>
 </div>
 
 </body>
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("2019-04-10 11:20:47").getTime();
+var countDownDate = new Date("2019/04/10 11:20:47").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
