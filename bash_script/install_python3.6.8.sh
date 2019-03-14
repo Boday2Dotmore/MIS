@@ -1,5 +1,5 @@
 #!/bin/bash
-yum -y install gcc openssl-devel bzip2-devel libffi-devel
+yum -y install gcc openssl-devel bzip2-devel libffi-devel nss curl libcurl
 cd /tmp
 curl -O https://www.python.org/ftp/python/3.6.8/Python-3.6.8.tgz
 tar zxvf Python-3.6.8.tgz
